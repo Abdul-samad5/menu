@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+     :root {
+        --background: 0 0% 100%;
+        --foreground: 224 71.4% 4.1%;
+        --card: 0 0% 100%;
+        --card-foreground: 224 71.4% 4.1%;
+        --popover: 0 0% 100%;
+        --popover-foreground: 224 71.4% 4.1%;
+        --primary: 220.9 39.3% 11%;
+        --primary-foreground: 210 20% 98%;
+        --secondary: 220 14.3% 95.9%;
+        --secondary-foreground: 220.9 39.3% 11%;
+        --muted: 220 14.3% 95.9%;
+        --muted-foreground: 220 8.9% 46.1%;
+        --accent: 220 14.3% 95.9%;
+        --accent-foreground: 220.9 39.3% 11%;
+        --destructive: 0 84.2% 60.2%;
+        --destructive-foreground: 210 20% 98%;
+        --border: 220 13% 91%;
+        --input: 220 13% 91%;
+        --ring: 224 71.4% 4.1%;
+        --radius: 0.5rem;
+    }
+    .dark {
+        --background: 224 71.4% 4.1%;
+        --foreground: 210 20% 98%;
+        --card: 224 71.4% 4.1%;
+        --card-foreground: 210 20% 98%;
+        --popover: 224 71.4% 4.1%;
+        --popover-foreground: 210 20% 98%;
+        --primary: 210 20% 98%;
+        --primary-foreground: 220.9 39.3% 11%;
+        --secondary: 215 27.9% 16.9%;
+        --secondary-foreground: 210 20% 98%;
+        --muted: 215 27.9% 16.9%;
+        --muted-foreground: 217.9 10.6% 64.9%;
+        --accent: 215 27.9% 16.9%;
+        --accent-foreground: 210 20% 98%;
+        --destructive: 0 62.8% 30.6%;
+        --destructive-foreground: 210 20% 98%;
+        --border: 215 27.9% 16.9%;
+        --input: 215 27.9% 16.9%;
+        --ring: 216 12.2% 83.9%;
+    }
+}
+
+@layer base {
+    * {
+        @apply border-border;
+    }
+    body {
+        @apply bg-background text-foreground;
+    }
+}
+
+
+/* Imported fonts */
+
+@font-face {
+    font-family: 'Averta';
+    src: url('/font/averta/AvertaStd-Bold.ttf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Averta';
+    src: url('/font/averta/AvertaStd-ExtraBold.ttf');
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'Averta';
+    src: url('/font/averta/AvertaStd-Extrathin.ttf');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Averta';
+    src: url('/font/averta/AvertaStd-Light.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Averta';
+    src: url('/font/averta/AvertaStd-Regular.ttf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Averta';
+    src: url('/font/averta/AvertaStd-Semibold.ttf');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Nexa-Bold';
+    src: url('/font/nexa/NexaLight.otf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Nexa-Bold';
+    src: url('/font/nexa/NexaRegular.otf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Nexa-Bold';
+    src: url('/font/nexa/NexaBold.otf');
+    font-weight: 700;
+}
+
+
+/* button {
+    border-radius: 40.299px;
+    padding: 0.8rem 3.5rem;
+    color: #fff;
+    font-family: Averta;
+    font-size: 20px;
+    width: -moz-fit-content;
+    width: fit-content;
+    font-weight: 600;
+} */
+
+.vector {
+    text-align: center;
+    margin-left: 10rem;
+    margin-top: -21rem;
+}
+
+.font1 {
+    font-family: Averta;
+}
+
+.font2 {
+    font-family: Nexa-Bold;
+}
+
+.font3 {
+    font-family: NexaRegular;
+}
+
+.font-4 {
+    font-family: 'Allura', cursive;
+}
+
+.btn {
+    margin-right: -12rem;
+}
+
+.screen {
+    height: 60vmax;
+}
+
+.onc {
+    margin-left: 13rem;
+}
+
+.gridding {
+    padding-right: 25rem;
+}
+
+.width {
+    width: 40rem;
+}
+
+.border {
+    border: 1px solid white;
+}
+
+.afford {
+    background-image: url('/images/bg-affordable.svg');
+    background-size: cover;
+}
+
+.hamburger {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    transition: all 0.25s;
+    position: relative;
+}
+
+.hamburger-top,
+.hamburger-middle,
+.hamburger-bottom {
+    position: absolute;
+    top: 10;
+    left: 0;
+    width: 24px;
+    height: 2px;
+    background: white;
+    transform: rotate(0);
+    transition: all 0.5s;
+}
+
+.hamburger-middle {
+    /* transform: */
+    width: 75%;
+    left: 25% !important;
+}
+
+.hamburger-bottom {
+    transform: translateY(14px);
+}
+
+.open {
+    transform: rotate(90deg);
+    transition: all 0.5s;
+}
+
+.open .hamburger-top {
+    transform: rotate(-45deg);
+}
+
+.open .hamburger-middle {
+    display: none;
+}
+
+.open .hamburger-bottom {
+    transform: rotate(45deg);
+}
+
+.side-bar {
+    background-image: url('/Sidebar.svg');
+}
+
+.unique {
+    background-position-y: 360px;
+    background-position-x: -200px;
+}
+
+@media (min-width: 768px) {
+    .unique {
+        background-position-y: 0;
+        background-position-x: 0;
+    }
+}
+
+
+/* @media (min-width: 480px) {
+  
+}
+
+@media (min-width: 768px) {
+ 
+}
+
+@media (min-width: 976px) {
+ 
+}
+
+@media (min-width: 1440px) {
+ } */
