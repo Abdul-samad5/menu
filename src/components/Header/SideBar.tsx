@@ -15,17 +15,17 @@ const SideBar:FC<{toggleHandler:()=>void}>=({toggleHandler})=>{
             </button>
           </header>
           <ul className='text-white flex flex-col font-semibold text-3xl items-center justify-between gap-7 '>
-            <li className=''>
+            {/* <li className=''>
               <Link href="/about">About us</Link>
-            </li>
+            </li> */}
             <li className=''>
-              <Link href="/">Service</Link>
+              <Link href="/">Home</Link>
             </li>
             <li className=''>
               <Link href="/blog">Blog</Link>
             </li>
             <li className=''>
-              <Link href="/">Contact</Link>
+              <Link href="/contact">Contact</Link>
           </li>
         </ul>
         <div className=' bg-[#000] rounded-[100px] p-2 w-fit flex justify-center m-auto'>

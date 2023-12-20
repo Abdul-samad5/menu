@@ -21,17 +21,17 @@ const Header = () => {
                <Image className="" src="/Logo.png" alt="logo" width={187} height={52} />
             </Link>
             <ul className="hidden text-white text-xl font-semibold md:flex md:justify-between md:gap-5 md:items-center">
-               <li className="">
+               {/* <li className="">
                   <Link href="/about">About us</Link>
                </li>
                <li className="">
                   <Link href="/">Service</Link>
-               </li>
+               </li> */}
                <li className="">
                   <Link href="/blog">Blog</Link>
                </li>
                <li className="">
-                  <Link href="/">Contact</Link>
+                  <Link href="/contact">Contact</Link>
                </li>
             </ul>
             <div className="hidden bg-[#000] rounded-[100px]  md:flex">

@@ -3,8 +3,8 @@ import React from 'react'
 
 function Download() {
   return (
-    <div className="flex download justify-around my-20 max-md:flex-col-reverse max-md:mb-80">
-        <div >
+    <div className='download mt-5 sm:pt-32 flex flex-col-reverse sm:flex sm:flex-row sm:justify-around'>
+      <div className="pt-20">
           <Image
             src='/shot.png'
             alt="screen"
@@ -12,9 +12,9 @@ function Download() {
             loading='eager'
             height={616}
             />
-        </div>
-        <div className="text-lighten mt-44 max-md:mt-72 max-md:text-center max-md:mb-10">
-          <h1 className="text-5xl font-bold w-96  mb-14">Download our app and join the Live Deals</h1>
+      </div>
+      <div className='sm:mt-36 mx-10'>
+        <h1 className="sm:text-4xl font-extrabold  sm:w-96 text-3xl ">Download our app and join the Live Deals</h1>
           <div className="flex flex-row">
               <Image
               className="pr-5"
@@ -32,8 +32,9 @@ function Download() {
               height={50}
               />
           </div>
-        </div>
+    
       </div>
+    </div>
   )
 }
 

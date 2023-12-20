@@ -5,6 +5,7 @@ import Card from '../../components/blog/Card'
 
 
 
+
 function index() {
   return (
     <> 

@@ -62,14 +62,14 @@ const TrendingSlider = () => {
        
         <div className="container">
           <div className="title-btns mb-24">
-            <h3 className="text-5xl font-extrabold">Chef of the month</h3>
-            <p className="w-80">Lorem ipsum dolor sit amet consectetur. Enim morbi arcu hendrerit feugiat.
+            <h3 className="sm:text-5xl text-4xl font-extrabold">Chef of the month</h3>
+            <p className="sm:w-80 flex justify-center">Lorem ipsum dolor sit amet consectetur. Enim morbi arcu hendrerit feugiat.
                Id dui bibendum massa auctor.</p>
             <div className="btns">
-              <button title="scroll left" onClick={slideLeft}>
+              <button title="scroll left" onClick={slideLeft} className='rounded-[50%]'>
                 <AiOutlineArrowLeft />
               </button>
-              <button title="scroll right" onClick={slideRight}>
+              <button title="scroll right" onClick={slideRight} className='rounded-[50%]'>
                 <AiOutlineArrowRight />
               </button>
             </div>
@@ -85,7 +85,7 @@ const TrendingSlider = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-around">
+      {/* <div className="flex justify-around">
         <div>
           <Image 
           src='/Rectangle 4172.png'
@@ -120,7 +120,7 @@ const TrendingSlider = () => {
             alt="four"
           />
         </div>
-      </div>
+      </div> */}
       
     </>
   );

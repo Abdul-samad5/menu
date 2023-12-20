@@ -48,7 +48,9 @@ const config = {
          backgroundImage: {
             counter:"url('/images/counter.svg')",
             hero: 'url(/images/background.png)',
-            unique:'url(/images/bg-unique.svg)'
+            unique:'url(/images/bg-unique.svg)',
+            uniques:'url(/images/unique.svg)',
+            download: 'url(/images/downloadapp.png)',
          },
          borderRadius: {
             lg: 'var(--radius)',

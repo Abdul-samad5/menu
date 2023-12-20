@@ -9,11 +9,11 @@ export default function Home() {
          <Hero />
          <Affordable />
          <Ready />
-         <Unique />
+        <Unique />
          <Testimony />
          <Counter />
-         <TrendingSlider />
-         <Download />
+          <TrendingSlider />
+         <Download /> 
       </main>
    );
 }

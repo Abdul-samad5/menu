@@ -2,9 +2,9 @@ import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
 export default function Hero() {
    return (
-      <div className="blog h-screen mb-10">
-         <div className="relative z-10 h-full">
-            <h1 className="text-7xl font-bold text-gray-200 font1 pt-60 text-center">
+      <div className="bg-hero h-screen mb-10">
+         <div className="relative  h-full">
+            <h1 className="sm:text-7xl text-5xl font-bold text-gray-200 font1 pt-60 text-center">
                <TypeAnimation
                   sequence={[
                      'BLOGS FROM FOOD EXPERTS',
