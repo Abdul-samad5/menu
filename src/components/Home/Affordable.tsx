@@ -26,7 +26,7 @@ best prices possible.</p>
          <div className="self-start">
             <h1 className="text-4xl md:text-6xl text-white font-allura ">Food Creatives</h1>
             <p className="text-sm md:text-xl text-white font-averta ">
-            Africa's first food creator economy 
+            Africa&apos;s first food creator economy 
                <br /> Where food creatives earn.
             </p>
          </div>

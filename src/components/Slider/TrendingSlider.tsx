@@ -1,7 +1,6 @@
 import React from "react";
 import { AiOutlineArrowRight, AiOutlineArrowLeft } from "react-icons/ai";
 import Chef from "../Chef";
-import Image from "next/image";
 
 const TrendingSlider = () => {
   const filteredItems = [

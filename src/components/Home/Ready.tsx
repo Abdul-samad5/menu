@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import React from 'react';
-import Vector from '../Vector';
 
 export default function Ready() {
    return (
