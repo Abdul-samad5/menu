@@ -12,7 +12,7 @@ function Form() {
                              
                         <Image
                             alt='icon'
-                            className='absolute top-[105%] right-[20%] md:right-[30rem] md:top-[100%] lg:right-[43rem] lg:top-[100%]'
+                            className='absolute top-[107%] right-[18%] md:right-[30rem] md:top-[100%] lg:right-[43rem] lg:top-[100%]'
                             src='/Profile.png'
                             width={20}
                             height={16}
@@ -25,7 +25,7 @@ function Form() {
                              
                         <Image
                             alt='icon'
-                            className='absolute top-[129%] right-[20%] md:right-[7rem] md:top-[99%] lg:right-[7rem] lg:top-[100%]'
+                            className='absolute top-[125%] right-[18%] md:right-[7rem] md:top-[99%] lg:right-[7rem] lg:top-[100%]'
                             src='/Group.png'
                             width={20}
                             height={16}
@@ -38,7 +38,7 @@ function Form() {
                              
                         <Image
                             alt='icon'
-                            className='absolute top-[150%] right-[20%] md:right-[30rem] md:top-[123%] lg:right-[43rem] lg:top-[120%]'
+                            className='absolute top-[140%] right-[18%] md:right-[30rem] md:top-[123%] lg:right-[43rem] lg:top-[120%]'
                             src='/ming.png'
                             width={20}
                             height={16}
@@ -51,7 +51,7 @@ function Form() {
                              
                         <Image
                             alt='icon'
-                            className='absolute top-[175%] right-[20%] md:right-[7rem] md:top-[123%] lg:right-[7rem] lg:top-[120%]'
+                            className='absolute top-[155%] right-[18%] md:right-[7rem] md:top-[123%] lg:right-[7rem] lg:top-[120%]'
                             src='/Group.png'
                             width={20}
                             height={16}
@@ -63,7 +63,7 @@ function Form() {
                     <textarea id="message" cols={20} rows={6} className="block w-[19rem] p-2.5  lg:w-[68rem] md:w-[45rem]  text-sm border-2 border-formboder rounded-xl text-gray-900 bg-white border-gray-300 focus:ring-blue-500" placeholder="Write your message for us here......"></textarea>
                     <Image
                             alt='icon'
-                            className='absolute top-[215%] right-[4rem]  md:top-[175%] lg:right-[7rem] lg:top-[162%]'
+                            className='absolute top-[200%] right-[4rem]  md:top-[175%] lg:right-[7rem] lg:top-[162%]'
                             src='/mes.png'
                             width={20}
                             height={16}
