@@ -63,14 +63,14 @@ function Form() {
                     <textarea id="message" cols={20} rows={6} className="block w-[19rem] p-2.5  lg:w-[68rem] md:w-[45rem]  text-sm border-2 border-formboder rounded-xl text-gray-900 bg-white border-gray-300 focus:ring-blue-500" placeholder="Write your message for us here......"></textarea>
                     <Image
                             alt='icon'
-                            className='absolute top-[200%] right-[4rem]  md:top-[175%] lg:right-[7rem] lg:top-[162%]'
+                            className='absolute top-[150%] right-[4rem]  md:top-[175%] lg:right-[7rem] lg:top-[162%]'
                             src='/mes.png'
                             width={20}
                             height={16}
                             priority/>
                   </div>
             </div>
-            <button className='text-white bg-green text-center w-80 mb-20 md:w-[40rem] lg:w-[67rem] lg:mx-16 md:mx-12 ml-4 py-5 rounded-[40px] mt-14'>Send Message  </button>
+            <button className='text-white bg-green text-center w-72 mb-20 md:w-[40rem] lg:w-[67rem] lg:mx-16 md:mx-12 ml-4 py-5 rounded-[40px] mt-14'>Send Message  </button>
         </form>
     </>
   )
