@@ -70,7 +70,7 @@ function Form() {
                             priority/>
                   </div>
             </div>
-            <button className='text-white bg-green text-center w-72 mb-20 md:w-[40rem] lg:w-[67rem] lg:mx-16 md:mx-12 ml-4 py-5 rounded-[40px] mt-14'>Send Message  </button>
+            <button className='text-white bg-green text-center w-72 mb-20 md:w-[40rem] lg:w-[67rem] lg:mx-16 md:mx-12 mx-2 py-5 rounded-[40px] mt-14'>Send Message  </button>
         </form>
     </>
   )

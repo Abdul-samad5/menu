@@ -80,17 +80,17 @@ function Card() {
     ]
   return (
     <>
-    {/* <div className='lg:grid lg:grid-cols-3 lg:grid-rows-3  lg:gap-y-2 bg-download bg-contain bg-no-repeat'> */}
+   
     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:ml-5 gap-y-5 md:ml-5 bg-download bg-contain bg-no-repeat'>
         {
             cards.map((card)=>(
                  <Link href="/" key={card.id} >
-                    <div className="w-[350px] rounded-xl border-solid border-2 mx-6 border-borderColor md:mx-2 sm:w-96">
+                    <div className="w-[21rem] rounded-xl border-solid border-2 mx-4 border-borderColor md:mx-2 sm:w-96">
                         <Image
                             src={card.author}
                             height={233}
                             width={370}
-                            className="w-[330px] mx-2 mt-2 sm:w-[22.5rem] lg:w-[23rem]"
+                            className="w-[20rem] mx-2 mt-2 sm:w-[22.5rem] lg:w-[23rem]"
                             alt='card'
                             loading='lazy'
                             />
@@ -109,7 +109,7 @@ function Card() {
     </div>
    <div className="grid place-items-center mt-20  mb-40">
     <Button text='Send Message' className='w-80 bg-green h-14 rounded-[40px] text-white py-4 '/>
-    <div className='absolute lg:top-[385%] lg:right-96 sm:top-[650%] sm:right-52 top-[1035%] right-7'>
+    {/* <div className='absolute lg:top-[385%] lg:right-96 sm:top-[650%] sm:right-52 top-[935%] right-7'>
         <svg xmlns="http://www.w3.org/2000/svg" width="99" height="115" viewBox="0 0 99 115" fill="none">
             <path d="M97.8327 52.5427C100.294 53.5113 100.504 54.6459 100.145 57.0159C100.212 62.5352 93.1546 61.8055 90.6126 58.8841C89.6779 57.8097 89.6124 55.1252 90.3356 53.9317C91.2242 52.4656 91.9355 52.4408 93.531 52.4215C94.7876 52.4063 96.6292 52.0689 97.8327 52.5427Z" fill="#01AA1B"/>
             <path d="M9.21935 99.4112C11.6802 100.381 11.8903 101.515 11.5317 103.885C11.5985 109.404 4.54133 108.675 1.9993 105.753C1.0646 104.679 0.99837 101.994 1.72235 100.801C2.61095 99.3348 3.32222 99.3101 4.9177 99.2908C6.17429 99.2756 8.01589 98.9381 9.21935 99.4112Z" fill="#01AA1B"/>
@@ -129,7 +129,7 @@ function Card() {
             <path d="M3.26567 55.533C4.71361 52.8915 8.97232 54.8489 10.829 55.4414C10.829 55.4414 11.4914 59.8011 10.8917 60.6188C10.4881 61.1689 8.916 61.0921 8.36217 61.2015C6.85365 61.4989 5.26528 61.4085 3.74069 61.3917C1.39551 61.3656 2.45317 57.0143 3.26567 55.533Z" fill="#01AA1B"/>
             <path d="M25.0542 80.4452C25.4404 82.4503 24.3186 83.279 22.8442 83.7362C21.9041 83.9822 21.2181 84.7696 20.6423 84.9675C19.3228 85.4205 17.9497 84.7401 16.7518 83.652C16.3455 83.2827 13.5222 80.311 13.8735 79.8068C14.4787 78.9376 16.063 78.3763 16.9107 77.7158C18.0304 76.8419 22.4245 75.7328 23.6676 77.3856C24.3526 78.2967 24.8505 79.3902 25.0542 80.4452Z" fill="#01AA1B"/>
         </svg>
-    </div>
+    </div> */}
    </div>
     </>
   )
