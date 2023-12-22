@@ -16,17 +16,17 @@ function Footer() {
             height={60}
           />
        <ul className='text-white flex'>
-          <li className='pr-14'>
+          {/* <li className='pr-14'>
           <Link href="/about">About us</Link>
           </li>
            <li className='pr-14'>
           <Link href="/">Service</Link>
-          </li>
+          </li> */}
           <li className='pr-14'>
           <Link href="/blog">Blog</Link>
           </li>
           <li className='pr-2'>
-          <Link href="/">Contact</Link>
+          <Link href="/contact">Contact</Link>
           </li>
         </ul>
     </div>

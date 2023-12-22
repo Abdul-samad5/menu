@@ -179,7 +179,7 @@
 }
 .unique {
     background-image: url('/whywe.png');
-    /* background-size: 50vh; */
+    background-size: cover;
     background-position: bottom;
     /* background-repeat: no-repeat; */
 }

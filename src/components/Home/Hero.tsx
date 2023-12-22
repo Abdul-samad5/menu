@@ -7,12 +7,12 @@ export default function Hero() {
             <p className=" text-white font2 text-lg sm:text-[33.198px] md:text-[33.198px] text-start font-bold line-clamp-1 ">
                You will be amazed
             </p>
-            <h1 className=" text-white sm:text-5xl font-averta font1 text-4xl md:text-7xl tracking-[1.04px] font-extrabold">
+            <h1 className=" text-white pt-5 sm:text-5xl font-averta font1 text-4xl md:text-7xl tracking-[1.04px] font-extrabold">
                QUALITY n FRESH @ BEST PRICES
             </h1>
          </div>
          <p className="text-lg sm:text-[33.198px] md:text-[33.198px] text-white font-bold font2 self-end ">and yes, </p>
-         <p className="text-lg sm:text-[33.198px] md:text-[33.198px] text-white self-end font-bold font2 -mt-2">we do swallow too.</p>
+         <p className="text-lg sm:text-[33.198px] md:text-[33.198px] text-white self-end font-bold font2 -mt-5">we do swallow too.</p>
          <Button value="Join wait list" className="self-end" />
          <div className="absolute bottom-10 mb-5 right-2 text-white md:flex gap-2 justify-center px-9 items-center hidden">
             {[1, 2, 3].map((btn) => (

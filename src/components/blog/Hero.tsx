@@ -4,7 +4,7 @@ export default function Hero() {
    return (
       <div className="bg-hero h-screen mb-10">
          <div className="relative  h-full">
-            <h1 className="sm:text-7xl text-5xl font-bold text-gray-200 font1 pt-60 text-center">
+            <h1 className="sm:text-7xl text-3xl font-bold text-gray-200 font1 pt-60 text-center">
                <TypeAnimation
                   sequence={[
                      'BLOGS FROM FOOD EXPERTS',

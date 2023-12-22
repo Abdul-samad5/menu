@@ -34,7 +34,7 @@ export default function Ready() {
                               },
                            ].map((item) => (  
                               <div key={item.title} className=" mb-10">
-                                 <Image src={item.name} alt={item.name} className="bg-green rounded-full p-2 mx-32 md:ml-20 lg:mx-44" width={60} height={60} />
+                                 <Image src={item.name} alt={item.name} className="bg-green rounded-full p-2 mx-36 md:ml-20 lg:mx-44" width={60} height={60} />
                                  <h1 className="text-green uppercase text-3xl font-averta font-bold py-10">{item.title}</h1>
                                  <p className="font-nexa font-normal text-[#000] lg:w-80 lg:ml-10">{item.paragraph}</p>
                               </div>
