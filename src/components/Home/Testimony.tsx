@@ -65,7 +65,7 @@ export default function Testimony() {
               </div>
             ))}
           </div>
-          <div className="btns ">
+          <div className="btns">
               <button title="scroll left" onClick={slideLeft} className='rounded-[50%]'>
                 <AiOutlineArrowLeft />
               </button>

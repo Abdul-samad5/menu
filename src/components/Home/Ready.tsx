@@ -15,19 +15,19 @@ export default function Ready() {
                         <div className='flex flex-col md:flex-row md:justify-around text-center'>
                            {[
                               {
-                                 name: '/Hamburger.png',
+                                 name: '/Hamburger.svg',
                                  paragraph:
                                     "Enjoy Browsing through a variety of delicious chef-created food deals From local favorites to exotic cuisines. There's something for everyone.",
                                  title: 'Discover',
                               },
                               {
-                                 name: '/Timer.png',
+                                 name: '/Timer.svg',
                                  paragraph:
                                     "Top up your wallet and join food deals you love. You can also buy immediately if you can't wait. Your money will not be deducted until the deal is successful.",
                                  title: 'Join Deal',
                               },
                               {
-                                 name: '/Truck.png',
+                                 name: '/Truck.svg',
                                  paragraph:
                                     'If the deal is successful Sit back and relax while the chef prepares your order. Your delicious meal will be delivered right to your doorstep.',
                                  title: 'Deliver',

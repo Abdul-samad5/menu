@@ -18,7 +18,7 @@ const Header = () => {
          {side && <SideBar toggleHandler={() => setSide(!side)} />}
          <header className="bg-[#0D0D0D] flex fixed top-0 z-10 left-0 w-full items-center justify-between px-6 gap-2 py-6  font1">
             <Link href="/">
-               <Image className="" src="/Logo.png" alt="logo" width={187} height={52} />
+               <Image className="" src="/Logo.svg" alt="logo" width={187} height={52} />
             </Link>
             <ul className="hidden text-white text-xl font-semibold md:flex md:justify-between md:gap-5 md:items-center">
                {/* <li className="">

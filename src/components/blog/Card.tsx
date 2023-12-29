@@ -6,7 +6,7 @@ import Button from '../Button'
 function Card() {
     const cards =[
         {
-            author:'/Frame.png',
+            author:'/Frame.svg',
             id:1,
             img:"Author name here . Just now",
             link:"Our top 10 food deals",
@@ -14,7 +14,7 @@ function Card() {
             text:'Read More'
         },
         {
-            author:'/Frame 2.png',
+            author:'/Frame 2.svg',
             id:2,
             img:"Author name here . 5 min",
             link:"How to get the best deals",
@@ -22,7 +22,7 @@ function Card() {
             text:'Read More'
         },
         {
-            author:'/Frame 3.png',
+            author:'/Frame 3.svg',
             id:3,
             img:"Author name here . Yesterday",
             link:"Another nice blog title",
@@ -30,7 +30,7 @@ function Card() {
             text:'Read More'
         },
         {
-            author:'/Frame 4.png',
+            author:'/Frame 4.svg',
             id:4,
             img:"Author name here . 3 days ago",
             link:"Our top 10 food deals", 
@@ -38,7 +38,7 @@ function Card() {
             text:'Read More'
         },
         {
-            author:'/Frame 5.png',
+            author:'/Frame 5.svg',
             id:5,
             img:"Author name here . 5 min",
             link:"How to get the best deals",
@@ -46,7 +46,7 @@ function Card() {
             text:'Read More'
         },
         {
-            author:'/Frame 6.png',
+            author:'/Frame 6.svg',
             id:6,
             img:"Author name here . 20 min",
             link:"Another nice blog title",
@@ -54,7 +54,7 @@ function Card() {
             text:'Read More'
         },
         {
-            author:'/Frame 6.png',
+            author:'/Frame 6.svg',
             id:7,
             img:"Author name here . 20 min",
             link:"Another nice blog title",
@@ -62,7 +62,7 @@ function Card() {
             text:'Read More'
         },
         {
-            author:'/Frame.png',
+            author:'/Frame.svg',
             id:8,
             img:"Author name here . 20 min",
             link:"Another nice blog title",
@@ -70,7 +70,7 @@ function Card() {
             text:'Read More'
         },
         {
-            author:'/Frame 4.png',
+            author:'/Frame 4.svg',
             id:9,
             img:"Author name here . 20 min",
             link:"Another nice blog title",

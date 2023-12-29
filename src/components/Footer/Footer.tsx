@@ -9,7 +9,7 @@ function Footer() {
         <div className='pt-10 flex flex-col justify-center items-center pb-10 mt-10'>
           <Image 
             className="mb-5"
-            src='/Logo.png'
+            src='/Logo.svg'
             alt='logo'
             width={213}
             loading='lazy'

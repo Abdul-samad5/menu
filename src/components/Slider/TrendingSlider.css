@@ -106,6 +106,10 @@ html {
 @media (min-width: 1024px) {
   .container {
       max-width: 1024px;
+    
+  }
+  .btns{
+    /* margin: auto 36rem; */
   }
 }
 @media (min-width: 1280px) {
