@@ -10,7 +10,7 @@ export default function App({ Component, pageProps }: AppProps) {
    const [loading, setLoading] = useState(false);
 
    useEffect(() => {
-      setTimeout(() => setLoading(true), 6000);
+      setTimeout(() => setLoading(true), 8000);
    }, []);
    return (
       <>
@@ -18,12 +18,17 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta charSet='utf-8'/>
          <title>Pusheat - Savoury Food Deals, Freshly Bidded By You</title>
          </Head>
-      {loading ?( 
-      <Layout>
-         <Component {...pageProps} />
-      </Layout>) : (
-        <LoadingScreen />
-      )}
+      {!loading ?
+      (
+         <LoadingScreen />
+       )
+      : 
+      ( 
+
+         <Layout>
+            <Component {...pageProps} />
+         </Layout>)
+      }
       </>
      
    );
