@@ -1,17 +1,10 @@
-import Image from 'next/image'
 import React from 'react'
+import Img from './image/img'
 
 function Vector() {
   return (
     <div>
-        <Image 
-          alt='gggg'
-          src='/footer.svg'
-          width={1400}
-          height={400}
-          priority
-          loading='eager'/>
-          
+           <Img src='/footer.svg'  alt='gggg' className="w-full" width={170}  height={300} />
     </div>
   )
 }

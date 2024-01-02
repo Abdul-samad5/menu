@@ -1,8 +1,7 @@
-
-import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import Button from '../Button'
+import Img from '../image/img'
 function Card() {
     const cards =[
         {
@@ -86,14 +85,7 @@ function Card() {
             cards.map((card)=>(
                  <Link href="/" key={card.id} >
                     <div className="w-[21rem] rounded-xl border-solid border-2 mx-4 border-borderColor md:mx-2 sm:w-96">
-                        <Image
-                            src={card.author}
-                            height={233}
-                            width={370}
-                            className="w-[20rem] mx-2 mt-2 sm:w-[22.5rem] lg:w-[23rem]"
-                            alt='card'
-                            loading='lazy'
-                            />
+                              <Img  src={card.author} alt='card' className="w-[20rem] mx-2 mt-2 sm:w-[22.5rem] lg:w-[23rem]" width={370}  height={233} />
                             <div className='md:mx-4 mb-10'>
                               <p className='text-cardText  text-xs -ml-40 md:ml-1 my-4'>{card.img}</p>
                               <h1 className='text-cardHead text-2xl font-bold mb-3 ml-5 md:-ml-0.5'>{card.link}</h1>

@@ -18,9 +18,6 @@ best prices possible.</p>
             <p className="text-sm md:text-xl text-white font-nexa font-normal">
             Earn on your culinary skills. Get guaranteed <br /> orders on your meals before starting to cook{' '}
             </p>
-            {/* <button className="bg-green justify-self-end" type="button">
-               Join waitlist
-            </button> */}
             <Button value='Join waitlist' className='justify-self-end'/>
          </div>
          <div className="self-start">
