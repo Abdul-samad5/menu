@@ -5,20 +5,34 @@ import '@/components/Slider/TrendingSlider.css';
 import Head from 'next/head';
 import LoadingScreen from '@/components/ui/LoadingScreen';
 import { useEffect, useState } from 'react';
+import { Router } from 'next/router';
 export default function App({ Component, pageProps }: AppProps) {
    
    const [loading, setLoading] = useState(false);
-
+   
    useEffect(() => {
-      setTimeout(() => setLoading(true), 8000);
-   }, []);
+      Router.events.on('routeChangeStart', () => {
+         setLoading(true)
+         })
+         Router.events.on('routeChangeComplete', () => {
+            setLoading(false)
+            })
+            return ()=>{
+               Router.events.off('routeChangeStart', () => {
+                  setLoading(false)
+                  })
+                  Router.events.off('routeChangeComplete', () => {
+                     setLoading(true)
+                     })
+            }
+   }, [Router.events]);
    return (
       <>
       <Head>
         <meta charSet='utf-8'/>
          <title>Pusheat - Savoury Food Deals, Freshly Bidded By You</title>
          </Head>
-      {!loading ?
+      {loading ?
       (
          <LoadingScreen />
        )
@@ -29,6 +43,10 @@ export default function App({ Component, pageProps }: AppProps) {
             <Component {...pageProps} />
          </Layout>)
       }
+       {/* <LoadingScreen />
+       <Layout>
+            <Component {...pageProps} />
+         </Layout> */}
       </>
      
    );
