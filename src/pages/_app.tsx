@@ -10,7 +10,7 @@ export default function App({ Component, pageProps }: AppProps) {
    const [loading, setLoading] = useState(false);
 
    useEffect(() => {
-      setTimeout(() => setLoading(true), 1000);
+      setTimeout(() => setLoading(true), 8000);
    }, []);
    return (
       <>
