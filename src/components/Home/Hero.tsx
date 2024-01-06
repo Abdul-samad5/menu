@@ -2,7 +2,7 @@ import React from 'react';
 import Button from '../ui/button';
 export default function Hero() {
    return (
-      <div className="bg-hero h-[800px] w-full px-4 md:px-9 flex flex-col justify-center gap-5 relative items-center  ">
+      <div className="bg-hero object-cover h-[800px] w-full px-4 md:px-9 flex flex-col justify-center gap-5 relative items-center  ">
          <div className="self-center md:self-center">
             <p className=" text-white font2 text-lg sm:text-[33.198px] md:text-[33.198px] text-start font-bold line-clamp-1 ">
                You will be amazed
@@ -24,5 +24,6 @@ export default function Hero() {
             ))}
          </div>
       </div>
+    
    );
 }

@@ -25,10 +25,10 @@ export default function Unique() {
                </p>
                <div className="grid md:grid-cols-2 gap-1 grid-cols-1 mx-auto  md:mx-0 font-nexa">
                   {[
-                     { img: '/Sketch.png', name: 'Savings and convenience' },
-                     { img: '/Sketch.png', name: 'Variety and exploration' },
-                     { img: '/Sketch.png', name: 'All meals are freshly made' },
-                     { img: '/Sketch.png', name: 'Interactive food deals' },
+                     { img: '/star.svg', name: 'Savings and convenience' },
+                     { img:'/star.svg', name: 'Variety and exploration' },
+                     { img: '/star.svg', name: 'All meals are freshly made' },
+                     { img: '/star.svg', name: 'Interactive food deals' },
                   ].map((li) => (
                      <div key={li.name} className="flex gap-2 items-center">
                         <Img src={li.img} alt={li.img} className="bg-green rounded-full" width={70} height={70} />
