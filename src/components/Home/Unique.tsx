@@ -13,9 +13,9 @@ export default function Unique() {
                <Img src='/phone.svg' alt="A phone showing a chef" height={550} width={350} className='absolute left-20 top-8 w-56 md:top-5 md:left-5  md:w-96 md:h-[31.5rem]' />
             </div>
          </div>
-         <div className="text-white flex text-center md:text-start flex-col mt-20  items-start gap-3 md:ml-32 md:mt-40">
+         <div className="px-5 text-white flex text-center md:text-start flex-col mt-20  items-start gap-3 md:ml-32 md:mt-40">
                <h1 className="text-5xl font-averta font-bold ">why we are unique?</h1>
-               <p className=" font-nexa text-sm font-normal w-[350px] md:w-[31.5rem]">
+               <p className=" font-nexa text-sm font-normal  w-[350px] md:w-[31.5rem]">
                   Pusheat isn&apos;t just a platform; it&apos;s a movement. Like TikTok for food creatives, chefs, and anyone ready to
                   showcase and sell their culinary masterpieces, we&apos;re setting a new standard in the culinary world.
                </p>

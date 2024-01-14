@@ -88,7 +88,7 @@ const Header = () => {
                onClick={click}
             >
                <span className="hamburger-top"></span>
-               <span className="hamburger-middle  w-3/4"></span>
+               <span className="hamburger-middle"></span>
                <span className="hamburger-bottom"></span>
             </button>
          </header>

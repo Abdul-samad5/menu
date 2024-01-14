@@ -11,6 +11,7 @@ const SideBar:FC<{toggleHandler:()=>void}>=({toggleHandler})=>{
            
             <button type="button" onClick={toggleHandler} className='w-6 rounded-none p-1 open'>
               <span className='hamburger-top h-3'></span>
+              <span className='hamburger-middle h-3'></span>
               <span className='hamburger-bottom h-3'></span>
             </button>
           </header>

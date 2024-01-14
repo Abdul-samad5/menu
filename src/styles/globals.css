@@ -214,7 +214,7 @@
 .hamburger-middle {
     /* transform: */
     width: 75%;
-    left: 25% !important;
+    margin-top: 7.5px;
 }
 
 .hamburger-bottom {
